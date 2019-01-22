@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(nulis-ndek-buku.jpg);
+  background-size: cover;
+}
+h1{
+  font-family: "pokemon", sans-serif;
+  font-size: 45px;
+  margin-top: 1%;
+  padding-top: 30px;
+  animation: h1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color: black;
+  margin-left: 46%;
+}
+@keyframes h1 {
+  0%{color:#FF9800; }
+  25%{color: #00BCD4;}
+  50%{color:#7B1FA2; }
+  70%{color:#FAFAFA; }
+  85%{color: #76FF03;}
+  100%{color: #f44336;}
+}
+.sidebar{
+  margin-top: -190px;
+  width: 245px;
+  height: 765px;
+  position: fixed;
+  float: left;
+  background-color: rgba(245, 156, 22, 0.84);
+}
+.search input{
+  font-size: 25px;
+  border-radius: 13px
+}
+
+#cari{
+  margin-right: 20px;
+  margin-left: 23%;
+  padding-top: -10%;
+}
+#kategori{
+  width:200px;
+  height: 35px;
+  font-size: 23px;
+  border-radius: 13px;
+}
+
+.icon{
+  background: rgba(255, 253, 22, 0.72);
+  margin-left: 15px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 360px;
+  padding-top: 100px;
+  margin-top: -32px;
+}
+
+ul li a:hover {
+    color: #ffffff ;
+    transition: 0.5s;
+  }
+ul{
+  margin-top: 50px;
+}
+
+ul li{
+  list-style: none;
+  padding-top: 30px;
+  font-size: 25px;
+  font-family: "pokemon",sans-serif;
+}
+
+ul li a{
+  color: #b8b894;
+  text-decoration: none;
+  margin-left: -15px;
+}
+
+.select{
+  color: white;
+}
+
+table{
+  position: fixed;
+  border-collapse: collapse;
+  border: none;
+  border-radius: 15px;
+  margin-left: 63%;
+  border-width: 5px;
+}
+td a{
+  text-decoration: none;
+}
+
+.content{
+  margin-top: 1%;
+  font-size: 20px;
+  margin-left: -550px;
+}
+th{
+  background-color: #ba4706;
+  color: white
+}
+th, td{
+  padding: 5px;
+}
+tr:hover{
+  color:rgba(255, 255, 255, 1);
+  transition: 0.2s;
+}
+td{
+  background-color:  rgba(245, 156, 22, 0.84);
+}
+tr:nth-child(even){
+  background-color: #ada8a8;
+}
